@@ -34,3 +34,5 @@
 - go easy on abstraction, go wants you to be concrete
 
 - Don't leak goroutines, can use profiler to check in on this
+- Batch your work, build up for one big write or whatever process is expensive
+  - limits resource contention

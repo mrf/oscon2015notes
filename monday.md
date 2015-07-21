@@ -12,3 +12,9 @@
 
 - Case Classes
   - Special class type taking advantage of immutability great for working with data
+
+#AngularJS
+- No requirement or relation to node, its all purely in the frontend
+  - BUUUT node is a good choice for backend for angular apps but anything that spits out JSON probably ok
+- So its just like twig, no really its twig in javascript, I'm not kidding
+  - soooo we provide all our data as json endpoints, instead of php structures
