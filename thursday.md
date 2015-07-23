@@ -30,3 +30,36 @@
 - But wait, if you have the ability USE IT
 - Good code better than bad code bad code better than no code
 - Decide who you want to listen to, users or haters
+
+
+# Stope Writing Javascript Frameworks
+- Google guy, will mostly only make fun of google supported frameworks
+- follow up to his blog post of the same name
+  - this ^ created an internet firestorm (yay hacker news!)
+
+- Argument 1 browsers have gotten enough better that you don't need the frameorkw for browser support
+- Argument 2 all the other stuff
+  - Abstractions are abstract what do they do for you?
+- Presentation pro tip: Use kids to draw pictures for you
+
+- A few lines of code and you can import JS into any html page
+  - HTML becomes your templating language core JS becomes your "framework"
+- Custom elements not hard to do in modern browsers
+- Whoa all the JS you wanted to write in 2004 now works!
+- Not convinced that this doesn't just bloat into a framework per project
+  - maybe if everyone writing the js was a google engineer
+- Libraries are still ok, but small purposeful libraries, not frameworks
+- https://gist.github.com/jcgregorio/7fa68cdced1181416559
+- https://github.com/polymer
+
+
+# Reactive Frontend
+- Not about Functional Reactive Programming
+- why go functional?
+ - because immutable state which aligns well with parallelism
+ - no side effects, impossible if it done properly and only ever supposed to do 1 thing
+ - but its possible to have too much of a good thing
+ - too much array map filter reduce == explosion
+ - solution =https://github.com/Reactive-Extensions/RxJS observables
+    - observables a streamed collection of all events over time
+    - simply a pattern to start a stream emit messages tear down stream
