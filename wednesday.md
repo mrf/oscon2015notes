@@ -25,4 +25,15 @@
 # Type Google into your Browser What Happens Next
 - Graeme Mathieson @mathie
 - http < first we check the cache
-- next: look at expires header to see if we need to reprime cache
+  - next: look at expires and other cache header to see if we need to reprime cache
+- now we parse scheme http/https hostname=google.com aka authority maybe a port as well
+- next we do dns lookup hit os resolver for ip
+- name service switch to do local or localish lookups for dns so we don't have to always hit remote servers
+- and a half second later, we can now make a TCP connection
+
+
+# NEO4j Graph Database
+- Relational Databases vs Graph
+  - Joins are the main data, its all about the relationships
+- SQL all the way up and down is current in indursty but doesn't solve al lproblems well
+- When you just watched a bugs life you don't want 'The human centipede'
