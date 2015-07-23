@@ -37,3 +37,10 @@
   - Joins are the main data, its all about the relationships
 - SQL all the way up and down is current in indursty but doesn't solve al lproblems well
 - When you just watched a bugs life you don't want 'The human centipede'
+
+# CoreOS Essentials in Debian
+- Docker is the new hotness this year, being rolled out all over
+  - this + kubernetes isn't only possible future
+- Wanted to insert coreos into debian
+- etcd important for container communication and registration
+- systemd necessary to make all this work
